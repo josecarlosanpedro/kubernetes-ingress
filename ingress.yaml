@@ -6,10 +6,10 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: backend.20.185.9.115.nip.io
+  - host: 20.185.9.115.nip.io
     http:
       paths:
       - backend:
-          serviceName: josecarlosanpedrokubernetesnodejs-deploy
+          serviceName: josecarlosanpedrokubernetesnodejs
           servicePort: 80
         path: /server
