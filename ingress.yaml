@@ -18,3 +18,7 @@ spec:
           serviceName: josecarlosanpedrokubernetesnodejs
           servicePort: 80
         path: /server
+      - backend:
+          serviceName: josecarlosanpedrokubernetesreactjs
+          servicePort: 80
+        path: /
